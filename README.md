@@ -1,19 +1,23 @@
 # Star Trek AI
 
-Autonomous decision-making and pathfinding engine for spacecraft navigation.
+Agent décisionnel autonome et moteur de pathfinding spatial.
 
-## Overview
+## Présentation
 
-Implements search algorithms (A*, Dijkstra) and heuristic evaluations for autonomous traversal in dynamic environments under fuel and resource constraints.
+Projet d'intelligence artificielle (G-AIA-401) implémentant des algorithmes de recherche heuristique pour piloter un vaisseau spatial de manière autonome dans un espace hostile.
 
-## Getting Started
+Mécanismes :
+- Algorithmes de pathfinding (A*, Dijkstra) et évitement d'obstacles en temps réel.
+- Prise de décision sous contraintes énergétiques et gestion optimale des boucliers et carburant.
+- Évaluation tactique et simulation prédictive des trajectoires adverses.
 
-### Prerequisites
+## Prérequis
+
 - Python 3.10+
 
-### Run
+## Lancement
 
 ```bash
-# Execute algorithm simulation
+# Lancer la simulation algorithmique
 python3 algorythm/main.py
 ```
